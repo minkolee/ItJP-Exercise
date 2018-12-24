@@ -1,6 +1,8 @@
-public class Main {
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
+         public class Main {
+public static void main(String[] args) {
+        // Create a Scanner
+        System.out.println(102%7);
+         }
+ }

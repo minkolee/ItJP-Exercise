@@ -1,4 +1,4 @@
-package IJP.chapter1;
+package ijp.chapter1;
 
 public class E6 {
     public static void main(String[] args) {
