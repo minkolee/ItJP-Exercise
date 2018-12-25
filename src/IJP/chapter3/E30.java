@@ -1,9 +1,10 @@
-package ijp.chapter2;
+package ijp.chapter3;
+
 
 import java.util.Scanner;
 
 
-public class E8 {
+public class E30 {
     public static void main(String[] args) {
 
         System.out.print("Enter the time zone offset to GMT: ");
