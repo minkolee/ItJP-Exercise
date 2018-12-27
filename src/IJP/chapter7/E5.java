@@ -3,7 +3,6 @@ package ijp.chapter7;
 import java.util.Scanner;
 
 /**
- * 分成2个函数,
  * 1 去掉重复的数字有点问题
  * 2 根据数组和打印结果
  */
