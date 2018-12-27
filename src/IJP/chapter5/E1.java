@@ -2,13 +2,13 @@ package ijp.chapter5;
 
 import java.util.Scanner;
 
+
 public class E1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer, the input ends if it is 0: ");
         String message = input.nextLine();
         String[] arrs = message.split(" ");
-
         int sum = 0;
         int pcount = 0;
         int ncount = 0;

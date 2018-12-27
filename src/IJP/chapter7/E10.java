@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class E10 {
     public static void main(String[] args) {
-        int[] arr = getInput();
+        int[] arr = E2.getInput();
         int index = indexOfMin(arr);
         System.out.println("The index is: " + index);
     }
