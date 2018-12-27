@@ -33,18 +33,18 @@ public class E9 {
                 tempname = firstName;
                 max = Integer.parseInt(message[1]);
                 firstName = message[0];
-                if(temp>=second){
+                if (temp >= second) {
                     second = temp;
                     secondName = tempname;
                 }
             } else {
-                if(Integer.parseInt(message[1])>second){
+                if (Integer.parseInt(message[1]) > second) {
                     second = Integer.parseInt(message[1]);
                     secondName = message[0];
                 }
             }
         } while (j < i);
         System.out.println("The student with the highest score is " + firstName + " " + max);
-        System.out.println("The student with the second highest score is " + secondName + " "+ second);
+        System.out.println("The student with the second highest score is " + secondName + " " + second);
     }
 }
