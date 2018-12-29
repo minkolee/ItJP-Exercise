@@ -14,18 +14,3 @@ public class Main {
 
 }
 
-class Test {
-    private int[] arrs = new int[10];
-
-    Test() {
-
-    }
-
-    public void addNumber(int i ) {
-        arrs[i] = 3;
-    }
-
-    public void showArr() {
-        System.out.println(Arrays.toString(arrs));
-    }
-}
