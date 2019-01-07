@@ -1,5 +1,7 @@
 package ijp.chapter10;
 
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
+
 /**
  * super 调用父类构造方法和调用父类方法
  * 如果构造函数没有写super,会隐式调用父类的super()
@@ -49,6 +51,7 @@ public class chapter10note {
         AB ab = new AB();
         AB c =  ab.showAB();
         c.test();
+        System.out.println(System.currentTimeMillis());
     }
 }
 

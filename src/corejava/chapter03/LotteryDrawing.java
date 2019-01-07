@@ -1,14 +1,15 @@
 package corejava.chapter03;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class LotteryDrawing {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("How many numbers do you need to draw?");
+        System.out.print("How many numbers do you need to draw? ");
         int k = in.nextInt();
-        System.out.print("What is the highest number you can draw?");
+        System.out.print("What is the highest number you can draw? ");
         int n = in.nextInt();
 
         //用1-n 填充数组
@@ -35,5 +36,6 @@ public class LotteryDrawing {
             n--;
         }
 
+        System.out.println("The result is" + Arrays.toString(result));
     }
 }
