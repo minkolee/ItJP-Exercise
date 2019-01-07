@@ -2,7 +2,7 @@ package ijp.chapter10;
 
 
 public class SimpleGeometricObject {
-    private String color = "white";
-    private boolean filled;
-    private java.util.Date dateCreated;
+    public static void main(String[] args) {
+        System.out.println("\u1d546");
+    }
 }
