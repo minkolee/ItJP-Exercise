@@ -34,6 +34,10 @@ public class Main {
             deduction_fix = smax * social_rate / 100;
         }
 
+        if(salary<deduction_fix+deduction_float+fix){
+            System.out.println("别算了,先努力挣钱吧");
+        }
+
         double total_income_after_deduction = salary * 12 - fix * 12 - deduction_fix * 12 - deduction_float * 12;
 
         System.out.println("fix is "+ fix);
@@ -61,8 +65,8 @@ public class Main {
 
         if (total_income_after_deduction < 36000) {
         }
-
         System.out.println("你的基础个人所得税是: "+basement_tax);
+
 
 
 
