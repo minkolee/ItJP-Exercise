@@ -9,7 +9,7 @@ public class TestPIT {
         // 初始化 个税对象 salary 参数是工资, bonus 是年终奖.
         // SS_basement 是社保基数,可以不填,将自动用工资计算.
         // 如果要计算全年总收入的比例,将工资设置为0,bonus设置为全年总收入, SS_basement设置为实际基数.
-        PersonState ps1 = new PersonState(22500, 100000,21396);
+        PersonState ps1 = new PersonState(22500, 100000);
         System.out.println(ps1);
 
         double taxable_income = ps1.taxable_income();
@@ -22,7 +22,7 @@ public class TestPIT {
         int k = 0;
         double min= PersonState.calNormalPIT(taxable_income)+ PersonState.calBonusPIT(bonus);
 
-        for(int i = 0;i<+100;i++){
+        for(int i = 0;i<=100;i++){
             pit = PersonState.calNormalPIT(taxable_income + bonus * i / 100);
             bonuspit = PersonState.calBonusPIT(bonus - bonus * i / 100);
 
@@ -34,6 +34,7 @@ public class TestPIT {
 
         }
         System.out.println("最小税收出现在比例是 " + k + "% 的时候,此时个税合计是: " + min);
-        System.out.println("此时年终奖是 " + ( bonus * k / 100 ));
+        System.out.println("此时年终奖是 " + ( bonus *(1- k / 100.0 )));
+        System.out.println("此时工资薪金是 " + (ps1.getPackage() - (bonus * (1 - k / 100.0))));
     }
 }

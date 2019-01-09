@@ -145,6 +145,10 @@ public class PersonState {
         return tax;
     }
 
+    public double getPackage() {
+        return this.salary * 12 + this.bonus;
+    }
+
 
 }
 

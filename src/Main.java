@@ -66,10 +66,7 @@ public class Main {
         if (total_income_after_deduction < 36000) {
         }
         System.out.println("你的基础个人所得税是: "+basement_tax);
-
-
-
-
+        System.out.println("你的基础个人所得税是: "+basement_tax);
     }
 
 
