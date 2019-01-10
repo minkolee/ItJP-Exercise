@@ -4,10 +4,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * 1 重载的核心是两个函数函数签名不同,就是不同的函数,而不是函数名相同
+ * 将不同功能分开到各个静态方法里
  */
-public class E10 {
+public class E11 {
     public static void main(String[] args) {
+        // 输入10个数字放入一个数组的代码
         double[] arr = new double[10];
         Scanner input = new Scanner(System.in);
         System.out.print("Enter ten numbers: ");
@@ -15,8 +16,9 @@ public class E10 {
             arr[i] = input.nextDouble();
         }
 
-        System.out.println(Arrays.toString(arr));
-        System.out.println(sumOfArray(arr));
+
+        //主体部分
+
 
     }
 
@@ -37,9 +39,11 @@ public class E10 {
         double sum = 0;
         for(int i=0;i<array.length;i++){
             sum += array[i];
-
         }
         return sum;
     }
 
+    public static double mean(double[] array) {
+        return sumOfArray(array) / array.length;
+    }
 }
