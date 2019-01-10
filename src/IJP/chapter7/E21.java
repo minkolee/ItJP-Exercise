@@ -22,10 +22,7 @@ public class E21 {
         for (int i = 0; i < balls; i++) {
             slotsArray[rollBall(slots)]++;
         }
-
         System.out.println(Arrays.toString(slotsArray));
-
-
     }
 
     public static int rollBall(int slots) {
