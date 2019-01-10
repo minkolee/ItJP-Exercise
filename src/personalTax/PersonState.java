@@ -4,15 +4,15 @@ package personalTax;
  * 个税的配置类,主要有社保上下限, 缴纳比例 等等
  */
 
-public class PersonState {
+public class PersonState implements Saner {
     // 社保上限
     public static final double SS_MAX = 21396;
     // 社保下限
     public static final double SS_MIN = 4279;
     // 社保 8% + 2% + 0.5%
-    public static final double SS_RATE = 10.5;
+    public static final double SS_RATE = 12.5;
     //公积金 7% 基本+ 5% 补充
-    public static final double FS_RATE = 12;
+    public static final double FS_RATE = 7.0;
     // 社保基数
     private double SS_basement = -1;
     // 月工资
@@ -22,7 +22,7 @@ public class PersonState {
 
     private double fix = 5000;
     private double deduction_ss;
-    private static final double DEDUCT_VAR = 2000;
+    private static final double DEDUCT_VAR = 0;
 
     private double new_salary;
     private double new_bonus;
@@ -71,7 +71,7 @@ public class PersonState {
                 this.SS_basement = SS_MAX;
             }
         }
-        deduction_ss = this.SS_basement * (SS_RATE + FS_RATE) / 100;
+        deduction_ss = this.SS_basement * (SS_RATE + FS_RATE) / 100.0;
 
         if ((fix + deduction_ss + DEDUCT_VAR) * 12 > salary * 12) {
             if (bonus <= (fix + deduction_ss + DEDUCT_VAR) * 12 - salary * 12) {
@@ -147,6 +147,11 @@ public class PersonState {
 
     public double getPackage() {
         return this.salary * 12 + this.bonus;
+    }
+
+    public int countPG(int a){
+        System.out.println("This is interface.");
+        return (int) (Math.random() * 10);
     }
 
 
