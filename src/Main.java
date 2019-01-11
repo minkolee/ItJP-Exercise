@@ -3,19 +3,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
+
 // 集合不存储基本类型,如果要存基本类型,只能使用包装类
 
 public class Main {
     public static void main(String[] args) {
-
-        int[] array = new int[20];
-
-        array[0] = 6;
-        array[1] = 6;
-
-        System.out.println(array.length);
-
-        printArr(array);
     }
 
 
