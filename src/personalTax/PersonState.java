@@ -10,9 +10,9 @@ public class PersonState {
     // 社保下限
     public static final double SS_MIN = 4279;
     // 社保 8% + 2% + 0.5%
-    public static final double SS_RATE = 12.5;
+    public static final double SS_RATE = 10.5;
     //公积金 7% 基本+ 5% 补充
-    public static final double FS_RATE = 7.0;
+    public static final double FS_RATE = 12.0;
     // 社保基数
     private double SS_basement = -1;
     // 月工资
@@ -22,7 +22,7 @@ public class PersonState {
 
     private double fix = 5000;
     private double deduction_ss;
-    private static final double DEDUCT_VAR = 0;
+    private static final double DEDUCT_VAR = 2000;
 
     private double new_salary;
     private double new_bonus;

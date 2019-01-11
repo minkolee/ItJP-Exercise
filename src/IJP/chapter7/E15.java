@@ -28,7 +28,7 @@ public class E15 {
     private static int[] eliminateDuplicates(int[] list) {
         int[] temp = new int[list.length];
         int index = 0;
-
+        // 从第一个元素开始,如果元素不存在于目标数组里,就复制进去,同时将index++,表示当前有几个元素,同时也代表索引
         for (int i = 0; i < list.length; i++) {
             if (!isInArray(list[i], temp, index)) {
                 temp[index] = list[i];
@@ -36,6 +36,7 @@ public class E15 {
             }
         }
 
+        // 生成第二个临时数组,长度为index的长度,直接将所有元素复制进去,然后返回该数组即可
         int[] temp2 = new int[index];
 
         for (int j = 0; j < index; j++) {

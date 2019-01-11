@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -7,26 +8,29 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<String> array = new ArrayList<String>();
+        int[] array = new int[20];
 
-        array.add("Jenny");
-        array.add("Cony");
-        array.add("Minko");
+        array[0] = 6;
+        array[1] = 6;
 
-        System.out.println(array.size());
-        System.out.println(array.get(1));
-        System.out.println(array.get(2));
-        System.out.println(array.get(0));
+        System.out.println(array.length);
 
-
+        printArr(array);
     }
 
 
+
+
+    // 这个函数略加修改就能够改成toString()方法来使用
     public static void printArr(int[] a) {
+        System.out.print('[');
         for (int i = 0; i < a.length; i++) {
-            System.out.print("|" + a[i]);
+            System.out.print(a[i]);
+            if (i != a.length - 1) {
+                System.out.print(',');
+            }
         }
-        System.out.println("|");
+        System.out.println(']');
     }
 }
 

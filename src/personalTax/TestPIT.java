@@ -9,7 +9,7 @@ public class TestPIT {
         // 初始化 个税对象 salary 参数是工资, bonus 是年终奖.
         // SS_basement 是社保基数,可以不填,将自动用工资计算.
         // 如果要计算全年总收入的比例,将工资设置为0,bonus设置为全年总收入, SS_basement设置为实际基数.
-        PersonState ps1 = new PersonState(22500,80000);
+        PersonState ps1 = new PersonState(8300,80000);
         System.out.println(ps1);
 
         double taxable_income = ps1.taxable_income();
