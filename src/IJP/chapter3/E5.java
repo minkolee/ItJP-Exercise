@@ -9,7 +9,7 @@ public class E5 {
         int i = input.nextInt();
         System.out.print("Enter the number of days elapsed since today: ");
         int j = input.nextInt();
-        switch ((i+j)%7){
+        switch ((i + j) % 7) {
             case 0:
                 System.out.println("Sunday");
                 break;

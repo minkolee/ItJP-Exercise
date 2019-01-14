@@ -3,7 +3,7 @@ package ijp.chapter4;
 import java.util.Scanner;
 
 public class E2 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter point 1 (latitude and longitude) in degrees: ");
         double x1 = input.nextDouble();
@@ -14,7 +14,7 @@ public class E2 {
         double RADIUS = 6371.01;
 
 
-        double d = RADIUS * Math.acos(Math.sin(Math.toRadians(x1))) * Math.sin(Math.toRadians(x2)) + Math.cos(Math.toRadians(x1)) * Math.cos(Math.toRadians(x2)) * Math.cos(Math.toRadians(y1-y2));
-        System.out.println("The distance between the two points is "+d+" km");
+        double d = RADIUS * Math.acos(Math.sin(Math.toRadians(x1))) * Math.sin(Math.toRadians(x2)) + Math.cos(Math.toRadians(x1)) * Math.cos(Math.toRadians(x2)) * Math.cos(Math.toRadians(y1 - y2));
+        System.out.println("The distance between the two points is " + d + " km");
     }
 }

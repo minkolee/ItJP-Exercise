@@ -28,10 +28,10 @@ public class E2 {
     public static void printResult(int[] arr) {
         if (arr.length == 0) {
             System.out.print("Array has nothing");
-        } else{
+        } else {
             int i = arr.length - 1;
             for (; i >= 0; i--) {
-                System.out.printf("%d ",arr[i]);
+                System.out.printf("%d ", arr[i]);
             }
         }
 

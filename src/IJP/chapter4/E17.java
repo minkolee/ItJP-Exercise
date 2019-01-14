@@ -2,7 +2,6 @@ package ijp.chapter4;
 
 /**
  * 将判断闰年,月份的天数结合起来.再对应字符串,不具体写了
- *
  */
 
 public class E17 {

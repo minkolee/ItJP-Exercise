@@ -7,8 +7,8 @@ public class E8 {
     public static void main(String[] args) {
         double[] darry = {10.1, 2.3, 4.5, 5.69, 3.45, 9.30, 8.30, 6.58, 9.37, 5.43};
         int[] iarry = {1, 2, 4, 5, 3, 9, 8, 6, 9, 5};
-        System.out.println(" "+average(darry));
-        System.out.println(" "+average(iarry));
+        System.out.println(" " + average(darry));
+        System.out.println(" " + average(iarry));
     }
 
     public static double average(int[] array) {

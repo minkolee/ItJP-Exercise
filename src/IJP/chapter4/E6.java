@@ -3,7 +3,7 @@ package ijp.chapter4;
 import java.util.Scanner;
 
 public class E6 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         double RADIUS = 40.0;
         double a = Math.random() * Math.PI * 2;
 

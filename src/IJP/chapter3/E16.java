@@ -8,8 +8,8 @@ package ijp.chapter3;
 
 public class E16 {
     public static void main(String[] args) {
-        int a =(int) (Math.random() * 101 - 50);
-        int b =(int) (Math.random() * 201 - 100);
+        int a = (int) (Math.random() * 101 - 50);
+        int b = (int) (Math.random() * 201 - 100);
         System.out.println("(" + a + ", " + b + ")");
     }
 }

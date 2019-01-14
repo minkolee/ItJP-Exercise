@@ -9,11 +9,11 @@ public class E26 {
         System.out.print(
                 "Enter an amount in double, for example 11.56: ");
         String amount = input.nextLine();
-        String dollar = amount.substring(0,amount.indexOf('.'));
-        String cents = amount.substring(amount.indexOf('.')+1);
+        String dollar = amount.substring(0, amount.indexOf('.'));
+        String cents = amount.substring(amount.indexOf('.') + 1);
         int dollarAmount = Integer.parseInt(dollar);
         int centsAmount = Integer.parseInt(cents);
-        int remainingAmount = dollarAmount*100+centsAmount;
+        int remainingAmount = dollarAmount * 100 + centsAmount;
 
         // Find the number of one dollars
         int numberOfOneDollars = remainingAmount / 100;

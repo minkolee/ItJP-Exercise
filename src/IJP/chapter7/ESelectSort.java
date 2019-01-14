@@ -9,7 +9,7 @@ import java.util.Random;
  */
 public class ESelectSort {
     public static void main(String[] args) {
-          // 自己写的,实现的繁复了一些,实际只需要不断交换最小值就可以
+        // 自己写的,实现的繁复了一些,实际只需要不断交换最小值就可以
 //        int[] array = {4, 3, 2, 5, 5, 7, 4, 3, 2, 1};
 //        int temp;
 //        for (int i = 0; i < array.length; i++) {
@@ -68,15 +68,15 @@ public class ESelectSort {
     public static void bubbleSort(int[] arr) {
         //功能
         //外层循环用来控制数组循环的圈数
-        for (int i = 0; i < arr.length-1; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             //j < arr.length-1 为了避免角标越界
             //j < arr.length-1-i 为了比较效率,避免重复比较
             //内层循环用来完成元素值比较，把大的元素值互换到后面
-            for (int j = 0; j < arr.length-1-i; j++) {
-                if (arr[j] > arr[j+1]) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
             }
             printArr(arr);

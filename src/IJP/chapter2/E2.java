@@ -11,7 +11,7 @@ public class E2 {
         double length = input.nextDouble();
         double area = radius * radius * Math.PI;
         double volume = area * length;
-        System.out.println("The area is "+ area);
-        System.out.println("The volume is "+ volume);
+        System.out.println("The area is " + area);
+        System.out.println("The volume is " + volume);
     }
 }

@@ -5,7 +5,7 @@ class AA {
     static int id = 12345;
 }
 
-class BB extends AA{
+class BB extends AA {
 
     void fun() {
         System.out.println(id);

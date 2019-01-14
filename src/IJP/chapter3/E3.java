@@ -13,7 +13,7 @@ public class E3 {
         double e = input.nextDouble();
         double f = input.nextDouble();
 
-        if ((a*d-b*c)==0){
+        if ((a * d - b * c) == 0) {
             System.out.println("The equation has no solution");
         } else {
             double x = (e * d - b * f) / (a * d - b * c);

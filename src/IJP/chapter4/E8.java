@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 /**
  * 本体忽略，又是算数学
- * */
+ */
 
 public class E8 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an ASCII code: ");
         short code = input.nextShort();

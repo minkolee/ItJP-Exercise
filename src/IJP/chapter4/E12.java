@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 /**
  * Hex to binary
- * */
+ */
 
 public class E12 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a hex digit: ");
         String i = input.nextLine();
         char cc = i.charAt(0);
         System.out.print("The binary value is ");
-        switch (cc){
+        switch (cc) {
             case 'A':
             case 'a':
                 System.out.println("1010");

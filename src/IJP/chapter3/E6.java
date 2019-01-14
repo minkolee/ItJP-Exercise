@@ -21,7 +21,7 @@ public class E6 {
 
         // Compute BMI
         double weightInKilograms = weight * KILOGRAMS_PER_POUND;
-        double heightInMeters = (feet*12+inches) * METERS_PER_INCH;
+        double heightInMeters = (feet * 12 + inches) * METERS_PER_INCH;
         double bmi = weightInKilograms /
                 (heightInMeters * heightInMeters);
 

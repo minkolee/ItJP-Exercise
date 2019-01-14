@@ -88,14 +88,14 @@ public class PersonState {
     }
 
     public String toString() {
-        return "月工资是: " + salary + " 年终奖是: " + bonus + " 每月扣除是: " + (deduction_ss+DEDUCT_VAR+fix) + " 社保基数是:" + SS_basement + " 新工资是: " + new_salary + " 新奖金是: " + new_bonus;
+        return "月工资是: " + salary + " 年终奖是: " + bonus + " 每月扣除是: " + (deduction_ss + DEDUCT_VAR + fix) + " 社保基数是:" + SS_basement + " 新工资是: " + new_salary + " 新奖金是: " + new_bonus;
     }
 
     public double getNew_salary() {
         return new_salary;
     }
 
-    public double taxable_income(){
+    public double taxable_income() {
         return this.new_salary - (fix + deduction_ss + DEDUCT_VAR) * 12;
     }
 
@@ -149,7 +149,7 @@ public class PersonState {
         return this.salary * 12 + this.bonus;
     }
 
-    public int countPG(int a){
+    public int countPG(int a) {
         System.out.println("This is interface.");
         return (int) (Math.random() * 10);
     }

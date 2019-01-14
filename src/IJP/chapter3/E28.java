@@ -59,7 +59,7 @@ public class E28 {
             System.out.println("r2 overlaps r1");
         } else {
             System.out.println("r2 is inside r1");
-        //  还需要再加一层判断，是否完全不在内部和在内部
+            //  还需要再加一层判断，是否完全不在内部和在内部
         }
 
     }

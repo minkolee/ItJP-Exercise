@@ -13,13 +13,12 @@ import java.util.Random;
  * final 修饰类的时候表示不允许扩展该类,其中的所有方法自动成为final方法
  * final 修饰的方法不能被子类覆盖
  * 注意,final 类 其中的 域也就是属性,不会自动变成final
- *
  */
 
 public class TestManager {
-    public static void main(String[] args) throws NoSuchFieldException,IllegalArgumentException, IllegalAccessException {
+    public static void main(String[] args) throws NoSuchFieldException, IllegalArgumentException, IllegalAccessException {
 
-        Employee harry = new Employee("Harry Hacker", 35000, 1989, 10, 9) ;
+        Employee harry = new Employee("Harry Hacker", 35000, 1989, 10, 9);
         Class cl = harry.getClass();
         System.out.println(cl.getName());
         Field f = cl.getDeclaredField("name");

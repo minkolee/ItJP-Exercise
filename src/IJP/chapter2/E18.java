@@ -7,7 +7,7 @@ public class E18 {
         int a = 1, b = 2;
         int control = 5;
         for (; a <= 5; a++, b++) {
-            System.out.println(a + "\t" + b + "\t" + (int)Math.pow(a, b));
+            System.out.println(a + "\t" + b + "\t" + (int) Math.pow(a, b));
         }
     }
 }

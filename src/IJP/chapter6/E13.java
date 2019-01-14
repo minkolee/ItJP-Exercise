@@ -9,8 +9,8 @@ import java.util.Scanner;
 public class E13 {
     public static double calM(int i) {
         double sum = 0;
-        for(int j = 1;j<=i;j++){
-            sum = sum + (double) j /(j + 1) ;
+        for (int j = 1; j <= i; j++) {
+            sum = sum + (double) j / (j + 1);
         }
         return sum;
     }
@@ -18,8 +18,8 @@ public class E13 {
     public static void printM(int i) {
         System.out.printf("i\tm(i)\n");
         System.out.println("-------------------");
-        for(int j =1;j<=i;j++){
-            System.out.printf("%d\t%.4f\n",j,calM(j));
+        for (int j = 1; j <= i; j++) {
+            System.out.printf("%d\t%.4f\n", j, calM(j));
         }
 
     }

@@ -8,7 +8,7 @@ public class E16 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the side: ");
         double side = input.nextDouble();
-        double area = 3 * Math.pow(3, 0.5) * Math.pow(side, 2) / 2.0 ;
+        double area = 3 * Math.pow(3, 0.5) * Math.pow(side, 2) / 2.0;
         System.out.print("The area of the hexagon " + area);
 
     }

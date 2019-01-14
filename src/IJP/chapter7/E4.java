@@ -11,8 +11,8 @@ public class E4 {
     public static void main(String[] args) {
         int[] arr = getInputEnds0();
         int[] result = getResult(arr);
-        System.out.printf("%d lower than avg\n",result[0]);
-        System.out.printf("%d no less than avg\n",result[1]);
+        System.out.printf("%d lower than avg\n", result[0]);
+        System.out.printf("%d no less than avg\n", result[1]);
     }
 
     public static int[] getInputEnds0() {
@@ -22,7 +22,7 @@ public class E4 {
         // 找到0的位置,确定int数组的长度
         int i;
         for (i = 0; i < message.length; i++) {
-            if (Integer.parseInt(message[i])<0) {
+            if (Integer.parseInt(message[i]) < 0) {
                 break;
             }
         }
@@ -44,7 +44,7 @@ public class E4 {
             if (arr[i] == 0) {
                 continue;
             } else {
-                System.out.printf("%d occurs %d ",i+1,arr[i]);
+                System.out.printf("%d occurs %d ", i + 1, arr[i]);
                 if (arr[i] > 1) {
                     System.out.println("times");
                 } else {
@@ -57,7 +57,7 @@ public class E4 {
     public static int[] countNumbersInArray(int[] arr) {
         int[] temp = new int[100];
         for (int i = 0; i < arr.length; i++) {
-            temp[arr[i]-1]++;
+            temp[arr[i] - 1]++;
         }
         return temp;
     }

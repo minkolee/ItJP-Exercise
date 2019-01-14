@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ItCastShop {
-    boolean flag=true;
+    boolean flag = true;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -121,7 +121,7 @@ public class ItCastShop {
         //删除集合元素
         for (int i = 0; i < list.size(); i++) {
             FruitItem thisItem = list.get(i);
-            if(thisItem.ID == fruitID) {
+            if (thisItem.ID == fruitID) {
                 list.remove(thisItem);
                 System.out.println("水果信息删除完毕!");
                 return;
@@ -142,7 +142,7 @@ public class ItCastShop {
         for (int i = 0; i < list.size(); i++) {
 
             FruitItem thisItem = list.get(i);
-            if(thisItem.ID == fruitID) {
+            if (thisItem.ID == fruitID) {
                 System.out.print("请输入新的水果ID:");
                 thisItem.ID = sc.nextInt();
                 System.out.print("请输入新的水果名称:");

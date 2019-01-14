@@ -11,17 +11,17 @@ public class E4 {
 
     }
 
-    public static void reverse(int number){
+    public static void reverse(int number) {
         int sum = 0;
         int i = 0;
         int temp = number;
-        while(temp!=0){
+        while (temp != 0) {
             temp = temp / 10;
             i++;
         }
 
         while (number != 0) {
-            sum = sum + (int) Math.pow(10, i-1) * (number % 10);
+            sum = sum + (int) Math.pow(10, i - 1) * (number % 10);
             number = number / 10;
             i--;
         }

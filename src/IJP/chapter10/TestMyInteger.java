@@ -20,7 +20,7 @@ public class TestMyInteger {
 }
 
 
-class MyInteger{
+class MyInteger {
     private int value = 0;
 
     MyInteger(int a) {
