@@ -44,7 +44,7 @@ public class E3 {
             if (arr[i] == 0) {
                 continue;
             } else {
-                System.out.printf("%d occurs %d ",i+1,arr[i]);
+                System.out.printf("%d occurs %d ", i + 1, arr[i]);
                 if (arr[i] > 1) {
                     System.out.println("times");
                 } else {
@@ -57,7 +57,7 @@ public class E3 {
     public static int[] countNumbersInArray(int[] arr) {
         int[] temp = new int[100];
         for (int i = 0; i < arr.length; i++) {
-            temp[arr[i]-1]++;
+            temp[arr[i] - 1]++;
         }
         return temp;
     }

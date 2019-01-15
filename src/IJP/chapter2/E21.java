@@ -12,7 +12,7 @@ public class E21 {
         double rate = input.nextDouble();
         System.out.print("Enter number of years: ");
         double year = input.nextDouble();
-        double futureValue = amount * Math.pow((1 + rate / 100.0 /12), year * 12);
+        double futureValue = amount * Math.pow((1 + rate / 100.0 / 12), year * 12);
         System.out.println("Accumulated value is $" + futureValue);
     }
 }

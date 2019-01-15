@@ -17,7 +17,7 @@ class LinearEquation {
     private double e;
     private double f;
 
-    LinearEquation(double a,double b,double c,double d,double e,double f) {
+    LinearEquation(double a, double b, double c, double d, double e, double f) {
         this.a = a;
         this.b = b;
         this.c = c;
@@ -29,18 +29,23 @@ class LinearEquation {
     public double getA() {
         return this.a;
     }
+
     public double getB() {
         return this.b;
     }
+
     public double getC() {
         return this.c;
     }
+
     public double getD() {
         return this.d;
     }
+
     public double getE() {
         return this.e;
     }
+
     public double getF() {
         return this.f;
     }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class testQuadraticEquation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-    System.out.print("Input a b c: ");
+        System.out.print("Input a b c: ");
         double a = input.nextDouble();
         double b = input.nextDouble();
         double c = input.nextDouble();

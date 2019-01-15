@@ -9,8 +9,8 @@ public class E14 {
         System.out.print("Enter your guess, 0 for head and 1 for tail: ");
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
-        int result = (int)(Math.random()*2);
-        if(result==number){
+        int result = (int) (Math.random() * 2);
+        if (result == number) {
             System.out.println("You are right");
         } else {
             System.out.println("You are wrong");

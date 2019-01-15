@@ -9,7 +9,6 @@ package ChuanZhiLearning.day11;
  * 定义抽象方法是固定格式: public abstract 返回值 方法名字(参数列表);
  * 由于固定了权限,可以将 public 和 abstract 省略
  * 此时并不是默认权限,而依然还是 public abstract 权限
-
  */
 
 public interface Inter {

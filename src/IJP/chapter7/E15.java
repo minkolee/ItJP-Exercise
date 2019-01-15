@@ -45,7 +45,7 @@ public class E15 {
         return temp2;
     }
 
-    private static boolean isInArray(int a, int[] arr,int index) {
+    private static boolean isInArray(int a, int[] arr, int index) {
         boolean isIn = false;
         for (int i = 0; i < index; i++) {
             if (a == arr[i]) {

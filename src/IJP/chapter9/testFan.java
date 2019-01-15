@@ -67,9 +67,9 @@ class Fan {
 
     public String toString() {
         if (on) {
-            return (color + " fan with radius "+ radius + " is running on level "+speed);
+            return (color + " fan with radius " + radius + " is running on level " + speed);
         } else {
-            return (color + " fan with radius "+ radius + " is off");
+            return (color + " fan with radius " + radius + " is off");
         }
     }
 

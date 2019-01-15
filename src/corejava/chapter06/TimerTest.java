@@ -13,10 +13,9 @@ public class TimerTest {
 //
 //        Timer t = new Timer(2000, listener);
 //        t.start();
-        repeat("GUGUUG",10);
+        repeat("GUGUUG", 10);
         JOptionPane.showMessageDialog(null, "Quit program?");
         System.exit(0);
-
 
 
     }
@@ -28,7 +27,7 @@ public class TimerTest {
             };
             new Timer(2000, listener).start();
 
-    }
+        }
 
     }
 

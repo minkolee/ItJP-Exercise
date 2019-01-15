@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 由于不知道算法,就采取暴力方案,即从数组里最大值的一半起算,一直算到1,哪一个能够全部整除就是最大公约数
  * 为此分离两个方法
  * 一个方法是从int数组中取最大值
- *
+ * <p>
  * 采用一个和数组长度一样的bool数组追踪每次的判断结果,全部为true才说明成功找到,每次循环结束之后将bool数组全部设置为false.
  * 一个方法是判断循环之后一个bool数组是否都是true
  */
@@ -39,7 +39,7 @@ public class E14 {
                 return i;
             } else {
                 for (int j = 0; j < isTrue.length; j++) {
-                    isTrue[j] =false;
+                    isTrue[j] = false;
                 }
             }
         }

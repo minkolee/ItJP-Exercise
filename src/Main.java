@@ -4,14 +4,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 
-
 // 集合不存储基本类型,如果要存基本类型,只能使用包装类
 
 public class Main {
     public static void main(String[] args) {
     }
-
-
 
 
     // 这个函数略加修改就能够改成toString()方法来使用

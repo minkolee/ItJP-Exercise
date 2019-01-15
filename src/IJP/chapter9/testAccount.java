@@ -8,9 +8,9 @@ public class testAccount {
         a1.setAnnualInterestRate(4.5);
         a1.withDraw(2500);
         a1.deposit(3000);
-        System.out.println("Your balance is "+a1.getBalance());
-        System.out.println("Your monthly interest is "+a1.getMonthlyInterest());
-        System.out.println("Your account created on "+a1.getDateCreated().toString());
+        System.out.println("Your balance is " + a1.getBalance());
+        System.out.println("Your monthly interest is " + a1.getMonthlyInterest());
+        System.out.println("Your account created on " + a1.getDateCreated().toString());
         StopWatch watch = new StopWatch();
         watch.stop();
         watch.getElapsedTime();
@@ -55,7 +55,7 @@ class Account {
     }
 
     public void setAnnualInterestRate(double rate) {
-        this.annualInterestRate = rate/100;
+        this.annualInterestRate = rate / 100;
     }
 
     public Date getDateCreated() {
@@ -78,7 +78,7 @@ class Account {
         if (amount > this.balance) {
             System.out.println("You don't have enough money.");
             return;
-        } else{
+        } else {
             this.balance -= amount;
             System.out.println("Successfully withdraw " + amount);
         }

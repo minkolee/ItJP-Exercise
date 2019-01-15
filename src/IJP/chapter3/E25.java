@@ -2,7 +2,7 @@ package ijp.chapter3;
 
 /**
  * 纯粹堆语句,略过不写了
- * */
+ */
 
 
 public class E25 {
@@ -10,44 +10,44 @@ public class E25 {
         int rank = (int) (Math.random() * 13);
         int suit = (int) (Math.random() * 4);
         System.out.print("The card you picked is ");
-        switch (rank){
-            case 0 :
+        switch (rank) {
+            case 0:
                 System.out.print("Ace");
                 break;
-            case 1 :
+            case 1:
                 System.out.print("2");
                 break;
-            case 2 :
+            case 2:
                 System.out.print("3");
                 break;
-            case 3 :
+            case 3:
                 System.out.print("4");
                 break;
-            case 4 :
+            case 4:
                 System.out.print("5");
                 break;
-            case 5 :
+            case 5:
                 System.out.print("6");
                 break;
-            case 6 :
+            case 6:
                 System.out.print("7");
                 break;
-            case 7 :
+            case 7:
                 System.out.print("8");
                 break;
-            case 8 :
+            case 8:
                 System.out.print("9");
                 break;
-            case 9 :
+            case 9:
                 System.out.print("10");
                 break;
-            case 10 :
+            case 10:
                 System.out.print("Jack");
                 break;
-            case 11 :
+            case 11:
                 System.out.print("Queen");
                 break;
-            case 12 :
+            case 12:
                 System.out.print("King");
                 break;
             default:
@@ -55,17 +55,17 @@ public class E25 {
                 break;
         }
         System.out.print(" of ");
-        switch (suit){
-            case 0 :
+        switch (suit) {
+            case 0:
                 System.out.print("Clubs");
                 break;
-            case 1 :
+            case 1:
                 System.out.print("Diamonds");
                 break;
-            case 2 :
+            case 2:
                 System.out.print("Hearts");
                 break;
-            case 3 :
+            case 3:
                 System.out.print("Spades");
                 break;
             default:

@@ -12,7 +12,7 @@ public class E12 {
         char big = ch1 == small ? ch2 : ch1;
         int i = (int) (big - small);
         for (int j = 0; j < i + 1; j++) {
-            System.out.print((char)(small + j) + " ");
+            System.out.print((char) (small + j) + " ");
 
             if ((j + 1) % numberPerLine == 0) {
                 System.out.println();

@@ -9,9 +9,9 @@ import java.util.Scanner;
 
 public class E18 {
     public static void main(String[] args) {
-        int i =1,j=1;
-        for(i=1;i<=6;i++){
-            for(j=1;j<=i;j++){
+        int i = 1, j = 1;
+        for (i = 1; i <= 6; i++) {
+            for (j = 1; j <= i; j++) {
                 System.out.print(j + "\t");
             }
             System.out.println();
@@ -19,8 +19,8 @@ public class E18 {
 
         System.out.println("-------------------------");
 
-        for(i=1;i<=6;i++){
-            for(j=1;j<=7-i;j++){
+        for (i = 1; i <= 6; i++) {
+            for (j = 1; j <= 7 - i; j++) {
                 System.out.print(j + "\t");
             }
             System.out.println();
@@ -28,9 +28,9 @@ public class E18 {
 
         System.out.println("-------------------------");
 
-        for(i=1;i<=6;i++){
-            for(j=6;j>=1;j--){
-                if(j>i){
+        for (i = 1; i <= 6; i++) {
+            for (j = 6; j >= 1; j--) {
+                if (j > i) {
                     System.out.print("\t");
                 } else {
                     System.out.print(j + "\t");
@@ -41,12 +41,12 @@ public class E18 {
 
         System.out.println("-------------------------");
 
-        for(i=1;i<=6;i++){
-            for(j=1;j<=6;j++){
-                if(j<i){
+        for (i = 1; i <= 6; i++) {
+            for (j = 1; j <= 6; j++) {
+                if (j < i) {
                     System.out.print("\t");
                 } else {
-                    System.out.print(j-(i-1) + "\t");
+                    System.out.print(j - (i - 1) + "\t");
                 }
             }
             System.out.println();

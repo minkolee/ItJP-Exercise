@@ -13,13 +13,13 @@ public class E16 {
         System.out.print("Please input a integer: ");
         int i = input.nextInt();
         int start = 2;
-        while(i!=1){
-            if(i%start==0){
-                System.out.print(start+" ");
+        while (i != 1) {
+            if (i % start == 0) {
+                System.out.print(start + " ");
                 i = i / start;
                 start = 2;
             } else {
-                start ++;
+                start++;
             }
         }
     }

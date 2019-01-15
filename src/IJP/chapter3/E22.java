@@ -9,11 +9,11 @@ public class E22 {
         System.out.print("Enter a point with two coordinates: ");
         double x1 = input.nextDouble();
         double x2 = input.nextDouble();
-        double length = Math.pow(Math.pow(x1,2)+Math.pow(x2,2),0.5);
-        if(length<=10.0){
-            System.out.println("Point ("+x1+", "+x2+") is in the circle");
+        double length = Math.pow(Math.pow(x1, 2) + Math.pow(x2, 2), 0.5);
+        if (length <= 10.0) {
+            System.out.println("Point (" + x1 + ", " + x2 + ") is in the circle");
         } else {
-            System.out.println("Point ("+x1+", "+x2+") is not in the circle");
+            System.out.println("Point (" + x1 + ", " + x2 + ") is not in the circle");
         }
     }
 }

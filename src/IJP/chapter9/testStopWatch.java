@@ -13,7 +13,7 @@ public class testStopWatch {
         StopWatch watch = new StopWatch();
         int sum = -3000;
         int string = 65;
-        for (int i = 0;i<100000000;i++ ) {
+        for (int i = 0; i < 100000000; i++) {
             if (i % 2 == 0) {
                 sum--;
                 string += 6;

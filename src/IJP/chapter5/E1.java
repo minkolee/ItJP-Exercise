@@ -31,11 +31,11 @@ public class E1 {
                 }
 
             }
-            double avg = (double)sum/(pcount+ncount);
-            System.out.println("The number of positives is "+pcount);
-            System.out.println("The number of negatives is "+ncount);
-            System.out.println("The total is "+sum);
-            System.out.println("The average is "+avg);
+            double avg = (double) sum / (pcount + ncount);
+            System.out.println("The number of positives is " + pcount);
+            System.out.println("The number of negatives is " + ncount);
+            System.out.println("The total is " + sum);
+            System.out.println("The average is " + avg);
         }
 
     }

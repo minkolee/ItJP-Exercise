@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 /**
  *
- * */
+ */
 
 public class E11 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a decimal value (0 to 15): ");
         short i = input.nextShort();
         char cc;
         cc = ' ';
-        switch (i){
+        switch (i) {
             case 0:
             case 1:
             case 2:
@@ -38,6 +38,6 @@ public class E11 {
                 System.out.println("Out of range");
                 break;
         }
-        System.out.println("The hex value is "+ cc);
+        System.out.println("The hex value is " + cc);
     }
 }

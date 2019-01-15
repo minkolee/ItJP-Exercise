@@ -11,7 +11,7 @@ public class E26 {
         double start = 1.0 / 1;
         for (int i = 10000; i <= 100000; i += 10000) {
             for (int j = 2; j <= i; j++) {
-                e+=start;
+                e += start;
                 start = start / j;
             }
             System.out.println("E is " + e);

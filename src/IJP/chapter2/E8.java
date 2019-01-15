@@ -31,14 +31,13 @@ public class E8 {
         long currentHour = totalHours % 24;
 
         // Display results
-        if(currentHour+timezone >12 ){
+        if (currentHour + timezone > 12) {
             System.out.println("Current time is " + (currentHour + timezone - 12) + ":"
                     + currentMinute + ":" + currentSecond + " PM");
         } else {
             System.out.println("Current time is " + (currentHour + timezone) + ":"
                     + currentMinute + ":" + currentSecond + " AM");
         }
-
 
 
     }

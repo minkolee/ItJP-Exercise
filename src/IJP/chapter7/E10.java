@@ -23,7 +23,7 @@ public class E10 {
     public static int indexOfSmallestElement(double[] array) {
         double min = array[0];
         int index = 0;
-        for(int i=1;i<array.length;i++){
+        for (int i = 1; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
                 index = i;
@@ -35,7 +35,7 @@ public class E10 {
 
     public static double sumOfArray(double[] array) {
         double sum = 0;
-        for(int i=0;i<array.length;i++){
+        for (int i = 0; i < array.length; i++) {
             sum += array[i];
 
         }

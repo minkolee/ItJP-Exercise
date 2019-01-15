@@ -2,10 +2,10 @@ package ijp.chapter4;
 
 /**
  * 本体忽略，又是算数学
- * */
+ */
 
 public class E7 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         double RADIUS = 40.0;
         double a = Math.random() * Math.PI * 2;
 

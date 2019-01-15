@@ -12,9 +12,9 @@ public class E14 {
         System.out.print("Enter a letter: ");
         String i = input.nextLine();
         char cc = i.charAt(0);
-        if (cc<='F' && cc>='A' && cc!='E'){
-            System.out.print("The numeric value for grade "+cc+" is ");
-            switch (cc){
+        if (cc <= 'F' && cc >= 'A' && cc != 'E') {
+            System.out.print("The numeric value for grade " + cc + " is ");
+            switch (cc) {
                 case 'A':
                     System.out.println("4");
                     break;
@@ -37,7 +37,6 @@ public class E14 {
         } else {
             System.out.println(cc + " is an invalid grade");
         }
-
 
 
     }

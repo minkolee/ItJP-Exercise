@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class E4 {
     public static void main(String[] args) {
-        int i = (int)(Math.random()*12) +1;
+        int i = (int) (Math.random() * 12) + 1;
         System.out.println("The random number is " + i);
-        switch (i){
+        switch (i) {
             case 1:
                 System.out.println("January");
                 break;

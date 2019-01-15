@@ -3,12 +3,12 @@ package ijp.chapter9;
 public class testRegularPolygon {
     public static void main(String[] args) {
         RegularPolygon rp1 = new RegularPolygon();
-        RegularPolygon rp2 = new RegularPolygon(6,4);
-        RegularPolygon rp3 = new RegularPolygon(10,4,5.6,7.8);
+        RegularPolygon rp2 = new RegularPolygon(6, 4);
+        RegularPolygon rp3 = new RegularPolygon(10, 4, 5.6, 7.8);
 
-        System.out.println("rp1's perimeter is " + rp1.getPerimeter()+" area is "+ rp1.getArea());
-        System.out.println("rp2's perimeter is " + rp2.getPerimeter()+" area is "+ rp2.getArea());
-        System.out.println("rp3's perimeter is " + rp3.getPerimeter()+" area is "+ rp3.getArea());
+        System.out.println("rp1's perimeter is " + rp1.getPerimeter() + " area is " + rp1.getArea());
+        System.out.println("rp2's perimeter is " + rp2.getPerimeter() + " area is " + rp2.getArea());
+        System.out.println("rp3's perimeter is " + rp3.getPerimeter() + " area is " + rp3.getArea());
     }
 }
 
@@ -29,7 +29,7 @@ class RegularPolygon {
         this.side = side;
     }
 
-    RegularPolygon(int n, double side,double x, double y) {
+    RegularPolygon(int n, double side, double x, double y) {
         if (n >= 3) {
             this.n = n;
         }
