@@ -3,16 +3,19 @@ package cn.itcast.day23;
 /**
  * FileInputStream 和 FileOutputStream用于读写字节,便于按照字节操作二进制文件
  * 如果要读写字符比如中文字符的文本文件(不仅仅是txt,还有HTML或者代码文件,这个时候就必须使用FileRead类
+ * 
  */
 
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.Random;
 
 public class TestIO {
 
     public static void main(String[] args) throws IOException {
-        function();
+        File file = new File("D:\\Downloads");
+        System.out.println(Arrays.toString(file.listFiles(new Filter())));
     }
 
     private static void func2() throws IOException {
@@ -37,7 +40,12 @@ public class TestIO {
             file2.write(bb, 0, len);
         }
         file2.close();
+    }
+}
 
-
+class Filter implements FileFilter {
+    public boolean accept(File file) {
+        Random rand = new Random();
+        return (rand.nextInt(100) % 2 == 0);
     }
 }

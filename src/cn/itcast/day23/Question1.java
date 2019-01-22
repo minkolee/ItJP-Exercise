@@ -1,6 +1,7 @@
 package cn.itcast.day23;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 public class Question1 {
@@ -45,7 +46,7 @@ public class Question1 {
 
 
 
-    public static void func() throws IOException {
+    private static void func() throws IOException {
         /**
          * 流的嵌套关系:
          * 底层都是字节操作,然后往上一层是缓冲读取和输出
@@ -58,11 +59,7 @@ public class Question1 {
 
         FileOutputStream fos = new FileOutputStream("D:\\utf.txt");
         BufferedOutputStream out = new BufferedOutputStream(fos);
-        OutputStreamWriter osw = new OutputStreamWriter(out, "UTF-8");
-
-
-
-
+        OutputStreamWriter osw = new OutputStreamWriter(out, StandardCharsets.UTF_8);
         int len;
         char[] cc = new char[1024];
 
