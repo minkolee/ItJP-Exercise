@@ -18,6 +18,4 @@ public class TestPrinter {
         pw.write("三鹅");
         pw.close();
     }
-
-
 }
