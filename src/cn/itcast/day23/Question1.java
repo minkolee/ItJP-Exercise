@@ -38,13 +38,8 @@ public class Question1 {
 //        System.out.println((char) fr.read());
 //        System.out.println((char) fr.read());
 //        System.out.println((char) fr.read());
-
         func();
-
     }
-
-
-
 
     private static void func() throws IOException {
         /**
@@ -56,22 +51,15 @@ public class Question1 {
         FileInputStream fis = new FileInputStream("D:\\gbk.txt");
         BufferedInputStream bis = new BufferedInputStream(fis);
         InputStreamReader isr = new InputStreamReader(bis, "GBK");
-
         FileOutputStream fos = new FileOutputStream("D:\\utf.txt");
         BufferedOutputStream out = new BufferedOutputStream(fos);
         OutputStreamWriter osw = new OutputStreamWriter(out, StandardCharsets.UTF_8);
         int len;
         char[] cc = new char[1024];
-
         while ((len = isr.read(cc)) != -1) {
-
             osw.write(cc, 0, len);
             osw.flush();
         }
-
         osw.close();
-
-
-
     }
 }
