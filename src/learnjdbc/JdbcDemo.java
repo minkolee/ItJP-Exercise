@@ -49,13 +49,12 @@ public class JdbcDemo {
 
         while (rs.next()) {
             System.out.println(rs.getInt("id"));
+            System.out.println("---------------------------------");
             System.out.println(rs.getInt("quantity"));
+            System.out.println("---------------------------------");
+            System.out.println(rs.getString("name"));
+            System.out.println("---------------------------------");
         }
-
-
-
-
-
 
         // 6 关闭资源,要将执行者对象和连接对象全部关闭
         state.close();
