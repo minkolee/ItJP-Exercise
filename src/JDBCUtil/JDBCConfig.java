@@ -17,7 +17,7 @@ public class JDBCConfig {
     private String password;
     private String filename;
 
-    JDBCConfig(String filename) {
+    public JDBCConfig(String filename) {
         try {
             InputStream isn = JDBCUtil.class.getClassLoader().getResourceAsStream(filename);
             BufferedInputStream bis = new BufferedInputStream(isn);
