@@ -130,7 +130,7 @@ public class DBUQuery {
         Connection con = JDBCUtil.getCon(config);
         try {
             // bean方法的Class <T>指的是传一个类的类文件对象,需要用.class属性来获取,泛型则是返回的类型,就是那个Bean类型
-            int objs = qr.query(con, "SELECT count(*) FROM goods", new ScalarHandler<Integer>());
+            long objs = qr.query(con, "SELECT count(*) FROM goods", new ScalarHandler<Long>());
             System.out.print(objs);
 
 
