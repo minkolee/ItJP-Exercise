@@ -17,10 +17,14 @@ import java.util.ArrayList;
 public class TestJDBCUtil {
 
     public static void main(String[] args) throws Exception {
+        //生成一个指定文件的配置类
+        JDBCConfig config = new JDBCConfig("connect.properties");
+
+        // 将该类传给静态工具,获得一个该配置的数据库连接
+        Connection con = JDBCUtil.getCon(config);
 
 
-
-        Connection con = JDBCUtil.getCon();
+        //下边都是正常使用该链接进行查询
         PreparedStatement pst = con.prepareStatement("SELECT * FROM goods");
         ResultSet rs = pst.executeQuery();
 

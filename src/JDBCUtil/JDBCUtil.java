@@ -14,43 +14,23 @@ import java.util.Properties;
 
 
 public class JDBCUtil {
-    private static final Connection connection;
+
     private JDBCUtil() {
     }
 
-    static {
+
+    public static Connection getCon(JDBCConfig config) {
+        Connection connection = null;
         try {
-            // 原来流对象打开配置文件然后用Properties载入,写死了路径
-//            FileInputStream fis = new FileInputStream("src\\connect.properties");
-
-            //采用类的加载器来读入文件,这样在src根目录下的文件就会被放到out或者bin目录的同样位置的路径下,就可以读取到了,无需写死路径
-            // 这个本质上还是反射原理,可以用来加载任意文件.
-
-            InputStream isn = JDBCUtil.class.getClassLoader().getResourceAsStream("connect.properties");
-            BufferedInputStream bis = new BufferedInputStream(isn);
-            InputStreamReader isr = new InputStreamReader(bis, "GBK");
-            Properties config = new Properties();
-            config.load(isr);
-
-
-
-
-
-
-            // 用读入的属性来配置文件
-            Class.forName(config.getProperty("driver"));
-            String url = config.getProperty("url");
-            String username = config.getProperty("username");
-            String password =  config.getProperty("password");
+            Class.forName(config.getDriver());
+            String url = config.getUrl();
+            String username = config.getUsername();
+            String password = config.getPassword();
             connection = DriverManager.getConnection(url, username, password);
         } catch (Exception ex) {
             System.out.println(ex + "数据库连接失败");
             throw new RuntimeException("数据连接失败");
         }
-
-    }
-
-    public static Connection getCon() {
         return connection;
     }
 
