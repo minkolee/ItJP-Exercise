@@ -1,6 +1,8 @@
 package learnjdbc;
 
-import com.mysql.cj.xdevapi.Result;
+/**
+ * 成功的也操作了Postgresql数据库
+ */
 
 import java.sql.*;
 
@@ -11,6 +13,14 @@ public class JdbcDemo {
         // 1 采用反射方式加载驱动类
         // 由于驱动类有静态代码块,加载的时候就会执行
         // 静态代码块的功能还需要学习一下
+        // 这是操作PostgreSQL
+//        Class.forName("org.postgresql.Driver");
+//        String url = "jdbc:postgresql://localhost:5432/contract?serverTimezone=UTC";
+//        String username = "contract";
+//        String password = "contract";
+//        Connection con = DriverManager.getConnection(url, username, password);
+//        Statement state = con.createStatement();
+
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
@@ -23,13 +33,13 @@ public class JdbcDemo {
         String password = "fflym0709";
 
         Connection con = DriverManager.getConnection(url, username, password);
-
-
-        // 3 获取语句的执行者对象
-
+//
+//
+//        // 3 获取语句的执行者对象
+//
         Statement state = con.createStatement();
 
-//        System.out.println(state);
+        System.out.println(state);
 
         // 4 执行操作SQL语句
         // int executeUpdate(String sql) 只能执行 insert delete update, 返回值表示成功操作多少行
@@ -50,9 +60,9 @@ public class JdbcDemo {
         while (rs.next()) {
             System.out.println(rs.getInt("id"));
             System.out.println("---------------------------------");
-            System.out.println(rs.getInt("quantity"));
-            System.out.println("---------------------------------");
             System.out.println(rs.getString("name"));
+            System.out.println("---------------------------------");
+            System.out.println(rs.getInt("quantity"));
             System.out.println("---------------------------------");
         }
 
