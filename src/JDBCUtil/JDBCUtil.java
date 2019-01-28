@@ -1,8 +1,6 @@
 package JDBCUtil;
 
-import java.io.*;
 import java.sql.*;
-import java.util.Properties;
 
 /**
  * 为了简化代码,自定义一个自己的连接MySQL的工具类,由于是工具类,先private构造方法,禁止new 对象

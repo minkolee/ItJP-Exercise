@@ -9,7 +9,6 @@ import java.util.Properties;
  * 把读入配置的部分移动到一个新的类,每次可以用一个配置文件new 一个新的config 对象,不同的config对象包含不同的配置
  */
 
-
 public class JDBCConfig {
 
     private String driver;
@@ -33,7 +32,6 @@ public class JDBCConfig {
             throw new RuntimeException("加载配置类出错");
         }
     }
-
 
     public String getDriver() {
         return driver;
