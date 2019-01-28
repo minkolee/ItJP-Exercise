@@ -49,7 +49,6 @@ class ThreadAddNumber implements Callable<Integer> {
     }
 
     public Integer call() {
-
         return add();
     }
 }
