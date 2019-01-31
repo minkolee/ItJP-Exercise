@@ -36,8 +36,8 @@ public class UDPReceiver {
 
         //这里必须要拆包,可以拆出IP地址,发送方端口,字节数组的长度,才能够将数
 
-        //直接打印,发现是一串全部的东西
-        System.out.println(new String(bytes));
+        //直接打印,发现是一串全部的东西,还好IO流可以获取读到的字节数量,所以可以还原
+//        System.out.println(new String(bytes));
 
         //拆包,拆长度出来,之后可以采用复制数组的办法
         int length = dp.getLength();
