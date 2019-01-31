@@ -2,6 +2,7 @@ package personalTax;
 
 /**
  * 个税的配置类,主要有社保上下限, 缴纳比例 等等
+ *
  */
 
 public class PersonState {
