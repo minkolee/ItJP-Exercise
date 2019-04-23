@@ -1,6 +1,10 @@
 package chapter5;
 
+import cc.conyli.commons.SimpleOutput;
 import chapter5.extension.Student;
+
+import java.util.Arrays;
+
 
 /**
  * 继承遵循两小一大：
@@ -32,11 +36,17 @@ public class Learn {
 
     public static void main(String[] args) {
 
-        Student ss = new Student(18, "cony", 110, "mathmetic", "clay");
+        int i = -3295939;
 
-        System.out.println(ss);
+        String result = Integer.toUnsignedString(i);
 
-        ss.tellHobby();
+        String again = "三鹅咕咕咕123456";
 
+        SimpleOutput.println(again.charAt(0));
+        SimpleOutput.println(again.codePointAt(0));
+
+        byte[] bytes = again.getBytes();
+
+        SimpleOutput.println(Arrays.toString(bytes));
     }
 }
