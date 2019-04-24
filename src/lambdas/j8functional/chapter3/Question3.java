@@ -7,8 +7,8 @@ import lambdas.j8functional.entity.Prepare;
 import java.util.List;
 
 /**
- * a 签名是一个Predicate函数接口，所以是惰性求值
- * b stream的 limit，估计是限制长度，所以是立刻求值
+ * a 签名是一个Predicate函数接口，返回值是布尔，会立刻计算
+ * b stream的 limit，返回值是Stream对象，是惰性的
  */
 
 

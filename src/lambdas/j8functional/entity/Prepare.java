@@ -1,6 +1,6 @@
 package lambdas.j8functional.entity;
 
-import cc.conyli.commons.RandomName;
+import cc.conyli.commons.RandomGenerator;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class Prepare {
         List<Track> tracks = new ArrayList<>();
         for (int j = 0; j < length; j++) {
             Track track = new Track();
-            track.setName(RandomName.getRandomString(4));
+            track.setName(RandomGenerator.getRandomString(4));
             tracks.add(track);
         }
         return tracks;
@@ -23,11 +23,11 @@ public class Prepare {
 
         for (int i = 0; i < length; i++) {
             Artist artist = new Artist();
-            artist.setName(RandomName.getRandomString(5));
-            artist.setOrigin(RandomName.getRandomString(10));
-            int count = RandomName.getRandomIntFrom1(4);
+            artist.setName(RandomGenerator.getRandomString(5));
+            artist.setOrigin(RandomGenerator.getRandomString(10));
+            int count = RandomGenerator.getRandomIntFrom1(4);
             for (int j = 0; j < count; j++) {
-                String name = RandomName.getRandomString(5);
+                String name = RandomGenerator.getRandomString(5);
                 artist.addMember(name);
             }
 
@@ -41,14 +41,14 @@ public class Prepare {
 
         for (int i = 0; i < length; i++) {
             Album album = new Album();
-            album.setName(RandomName.getRandomString(6));
-            int count = RandomName.getRandomIntFrom1(6);
+            album.setName(RandomGenerator.getRandomString(6));
+            int count = RandomGenerator.getRandomIntFrom1(6);
             for (int j = 0; j < count; j++) {
                 Track track = new Track();
-                track.setName(RandomName.getRandomString(4));
+                track.setName(RandomGenerator.getRandomString(4));
                 album.addTrack(track);
             }
-            album.setMusicians(RandomName.getRandomString(3));
+            album.setMusicians(RandomGenerator.getRandomString(3));
             albums.add(album);
         }
 

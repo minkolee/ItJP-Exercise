@@ -1,6 +1,6 @@
 package lambdas.j8functional.chapter3;
 
-import cc.conyli.commons.RandomName;
+import cc.conyli.commons.RandomGenerator;
 import lambdas.j8functional.entity.Album;
 import lambdas.j8functional.entity.Artist;
 import lambdas.j8functional.entity.Prepare;
