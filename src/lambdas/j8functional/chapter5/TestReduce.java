@@ -46,7 +46,7 @@ public class TestReduce {
 //        所以用两参数的reduce，开始值的类型必须和流中元素类型相同。
 //
 //        三参数的reduce方法的lambda类型就是标准的BiFunction<T, U, R> ，可以返回不同的类型，更加灵活，如果不并行的话，第三个参数的lambda表达式随便写都可以。因为不会执行
-        ArrayList<String> s = stringList.stream().reduce(new ArrayList<String>(), (x, y) -> {
+        ArrayList<String> s = stringList.stream().parallel().reduce(new ArrayList<String>(), (x, y) -> {
             if (y.length() > 3) {
                 x.add(y);
 
@@ -54,7 +54,14 @@ public class TestReduce {
             return x;
         }, (x, y) -> x);
 
+        Stream<Integer> integerStream = Stream.of(3, 4, 5, 6, 7);
+        Stream<Integer> integerStream2 = Stream.of(3, 4, 5, 6, 7);
 
+        int parellelResult = integerStream.parallel().reduce(10, (x, y) -> x + y, (x, y) -> (x * y));
 
+        int result = integerStream2.reduce(10, (x, y) -> x + y);
+
+        System.out.println("并行操作的结果是："+parellelResult);
+        System.out.println("单线程操作的结果是："+result);
     }
 }

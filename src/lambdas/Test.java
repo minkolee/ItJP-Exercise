@@ -15,11 +15,23 @@ public class Test {
 
     public static void main(String[] args) {
 
-        String[] names = new String[]{"jey","saner6", "champanzee", "cony", "minko",};
+//               String[] names = new String[]{"jey","saner6", "champanzee", "cony", "minko",};
+//
+//        Arrays.sort(names, (Comparator.comparing(String::length)));
+//
+//        System.out.print(Arrays.toString(names));
 
-        Arrays.sort(names, (Comparator.comparing(String::length)));
+        Adder adder1 = new Adder(1, "saner");
+        Adder adder2 = new Adder(2, "saner");
+        Adder adder3 = new Adder(3, "saner");
+        Adder adder4 = new Adder(4, "saner");
+        Adder adder5 = new Adder(5, "saner");
+        System.out.println(adder1.addAnother(adder2).addAnother(adder3).addAnother(adder4).addAnother(adder5));
 
-        System.out.print(Arrays.toString(names));
+
+
+
+
 
     }
 
