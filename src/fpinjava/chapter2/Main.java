@@ -1,5 +1,7 @@
 package fpinjava.chapter2;
 
+import javax.print.DocFlavor;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -51,15 +53,30 @@ public class Main {
         //实验两参数的泛型
 //        f(x)(y) = n;
 
-        Function<Double, Integer> f = a -> (int) (a * 3);
+        //柯里化一个函数f(int ,double)=string
 
-        Function<Long, Double> g = x -> x + 2.0;
+        Function<Integer, Function<String, Long>> test = x -> y -> Long.parseLong(x.toString() + y);
 
-        ComposeR<Long, Double, Integer> composeR = f1 -> g1 -> x1 -> f1.apply(g1.apply(x1));
-
-
-        int i = composeR.apply(f).apply(g).apply(3L);
+        long i = test.apply(3).apply("4");
         System.out.println(i);
+
+        //现在要先传第二个参数，咋办
+
+        Function<String, Function<String, Function<String, Function<String, String>>>> curry = a -> b -> c -> d -> String.format("%s,%s,%s,%s", a, b, c, d);
+
+        System.out.println(curry.apply("12").apply("23").apply("34").apply("45"));
+
+        System.out.println(Temp.func("12", "23", "34", "45"));
+
+        TupleToC<Short, Integer, Long> tupleToC = x -> (long) ((int) x.get_1() + x.get_2() * x.get_2());
+
+        Tuple<Short, Integer> tuple = new Tuple<>((short) 3, 33);
+
+        long ii = tupleToC.apply(tuple);
+        System.out.println(ii);
+
+
+
     }
 
 }
