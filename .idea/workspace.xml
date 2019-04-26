@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c656f78c-ae0b-4d12-a03e-19b9ada181b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/ComposeThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/TupleToC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/BinaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/temp/BinaryOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/Compose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/temp/Compose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/ComposeR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/temp/ComposeR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/ComposeThen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/temp/ComposeThen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/Function.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/temp/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/TripleOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/temp/TripleOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fpinjava/chapter2/TupleToC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fpinjava/chapter2/temp/TupleToC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,133 +27,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7845579">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/ComposeR.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Compose.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/ComposeThen.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
-                  <caret line="77" selection-start-line="77" selection-end-line="77" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Tuple.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
-                  <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#176#177#0" expanded="true" />
-                    <element signature="e#201#202#0" expanded="true" />
-                    <element signature="e#225#226#0" expanded="true" />
-                    <element signature="e#250#251#0" expanded="true" />
-                    <element signature="e#281#282#0" expanded="true" />
-                    <element signature="e#309#310#0" expanded="true" />
-                    <element signature="e#340#341#0" expanded="true" />
-                    <element signature="e#368#369#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/TripleOperator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Temp.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="56" />
-                  <folding>
-                    <element signature="e#106#107#0" expanded="true" />
-                    <element signature="e#143#144#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Function.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/BinaryOperator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/TupleToC.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="57">
-                  <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Temp.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
-                  <folding>
-                    <element signature="e#106#107#0" expanded="true" />
-                    <element signature="e#169#170#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -228,17 +114,18 @@
         <option value="$PROJECT_DIR$/src/fpinjava/chapter2/Temp.java" />
         <option value="$PROJECT_DIR$/src/fpinjava/chapter2/Tuple.java" />
         <option value="$PROJECT_DIR$/src/fpinjava/chapter2/BinaryOperator.java" />
-        <option value="$PROJECT_DIR$/src/fpinjava/chapter2/Main.java" />
         <option value="$PROJECT_DIR$/src/fpinjava/chapter2/TupleToC.java" />
+        <option value="$PROJECT_DIR$/src/fpinjava/chapter2/temp/BinaryOperator.java" />
         <option value="$PROJECT_DIR$/src/fpinjava/chapter2/Function.java" />
+        <option value="$PROJECT_DIR$/src/fpinjava/chapter2/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="3863" />
-    <option name="height" value="2123" />
+    <option name="x" value="788" />
+    <option name="y" value="59" />
+    <option name="width" value="1076" />
+    <option name="height" value="927" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,7 +159,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,7 +216,7 @@
       <module name="ItJP-Exercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fpinjava.chapter2.*" />
+          <option name="PATTERN" value="fpinjava.chapter2.temp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,6 +289,7 @@
       <workItem from="1556155008462" duration="17243000" />
       <workItem from="1556194836522" duration="418000" />
       <workItem from="1556195336866" duration="7933000" />
+      <workItem from="1556254100198" duration="3937000" />
     </task>
     <task id="LOCAL-00001" summary="开始复习Java 基础">
       <created>1555986523326</created>
@@ -424,17 +312,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556110829344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="终于又想清楚一些问题">
+      <created>1556257335481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556257335481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78299000" />
+    <option name="totallyTimeSpent" value="82839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13841201" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14002146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -443,7 +338,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,7 +367,8 @@
     <MESSAGE value="开始复习Java 基础" />
     <MESSAGE value="java 8 函数式编程书练习" />
     <MESSAGE value="回家继续看，终于搞明白一个东西" />
-    <option name="LAST_COMMIT_MESSAGE" value="回家继续看，终于搞明白一个东西" />
+    <MESSAGE value="终于又想清楚一些问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="终于又想清楚一些问题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/Comparator.java" />
@@ -764,87 +660,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Compose.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/TripleOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Temp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="56" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="56" />
-          <folding>
-            <element signature="e#106#107#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/ComposeThen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/ComposeR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/BinaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Tuple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="494">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/temp/BinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/temp/Compose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/temp/ComposeR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/temp/ComposeThen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/temp/TripleOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/temp/TupleToC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/temp/Temp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/TupleToC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="181">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpinjava/chapter2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
         </state>
       </provider>
     </entry>

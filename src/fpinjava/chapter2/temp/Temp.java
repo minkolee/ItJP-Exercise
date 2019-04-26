@@ -1,4 +1,4 @@
-package fpinjava.chapter2;
+package fpinjava.chapter2.temp;
 
 public class Temp {
 
